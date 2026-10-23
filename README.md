@@ -21,9 +21,15 @@ Code (c) 2011 Jacob Eisenstein
 
 ## 3. References
 [1] David M. Blei, Andrew Y. Ng, and Michael I. Jordan, 2003. [Latent Dirichlet Allocation](http://jmlr.csail.mit.edu/papers/v3/blei03a.html). *Journal of Machine Learning Research*, Vol. 3, No. Jan, pp. 993-1022.
+
 [2] Michal Rosen-Zvi, Chaitanya Chemudugunta, Thomas Griffiths, and Padhraic Smyth, and Mark Steyvers, 2010. [Learning Author-Topic Models from Text Corpora](https://cocosci.berkeley.edu/tom/papers/AT_tois.pdf). *ACM Transactions on Information Systems*, Vol. 28, No. 1, pp. 1-38. 
+
 [3] Shuo Xu, Qingwei Shi, Xiaodong Qiao, Lijun Zhu, Han Zhang, Hanmin Jung, Seungwoo Lee, and Sung-Pil Choi, 2014. [A Dynamic Users' Interest Discovery Model with Distributed Inference Algorithm](https://doi.org/10.1155/2014/280892). *International Journal of Distributed Sensor Networks*, Vol. 2014, pp. 1-11.
+
 [4] Shuo Xu, Ling Li, Congcong Wang, Xin An, and Guancan Yang, 2025. [An Improved Author-Topic (AT) Model with Authorship Credit Allocation Schemes](https://doi.org/10.1177/01655515221133530). *Journal of Information Science*, Vol. 50, No. 1, pp. 184-204.
+
 [5] Shuo Xu, Ling Li, Liyuan Hao, Xin An, and Guancan Yang, 2021. [An Author Interest Discovery Model armed with Authorship Credit Allocation Scheme](https://doi.org/10.1007/978-3-030-71292-1_18). *iConference: Diversity, Divergence, Dialogue*, pp. 199-207. 
+
 [6] Rajarshi Das, Manzil Zaheer, and Chris Dyer, 2015. [Gaussian LDA for Topic Models with Word Embeddings](https://doi.org/10.3115/v1/P15-1077). *Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing, Association for Computational Linguistics*, pp. 795-804. 
+
 [7] Shuo Xu, Lanzhi Li, Jiahao Li, Xin An, Jianhua Liu, and Xuegang Deng, 2026. Evaluation of Mathematical Software Impact based on Diversity Measures. (Under Review)
