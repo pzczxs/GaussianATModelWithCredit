@@ -58,7 +58,7 @@ Author: XU, Shuo (pzczxs@gmail.com)
 ### 2.3 Resources
 Word Embeddings: pre-trained 50-demensional embedding vectors on 2024 Wikipedia + Gigaword 5 with GloVe approach
 
-To select an appropriate number of topics K for the Gaussian AT<sup>credit</sup> model, model performance is evaluated with normalized pointwise mutual information (NPMI) (Lau et al., 2014) and cosine distance. A higher NPMI value indicates semantically more topic coherence, whereas a larger cosine distance signals greater separation among topics. Given a topic k represented by its top-$N$ topic words w_(k,1,) w_(k,2,)⋯w_(k,N), the NPMI score and cosine distance for k are defined formally as follows:
+To select an appropriate number of topics $`K`$ for the Gaussian AT<sup>credit</sup> model, model performance is evaluated with normalized pointwise mutual information (NPMI) (Lau et al., 2014) and cosine distance. A higher NPMI value indicates semantically more topic coherence, whereas a larger cosine distance signals greater separation among topics. Given a topic k represented by its top-$N$ topic words w_(k,1,) w_(k,2,)⋯w_(k,N), the NPMI score and cosine distance for k are defined formally as follows:
 
 ### 2.4 Examples
 ```
