@@ -55,9 +55,17 @@ Author: XU, Shuo (pzczxs@gmail.com)
  -tw4,--numTopWords4PMI <arg>   #of top words for PMI (default: 15)
 ```
 
-### 2.3 Examples
+### 2.3 Resources
+Word Embeddings: pre-trained 50-demensional embedding vectors on 2024 Wikipedia + Gigaword 5 with GloVe approach
 
-### 2.4 Additional Information
+To select an appropriate number of topics K for the Gaussian AT<sup>credit</sup> model, model performance is evaluated with normalized pointwise mutual information (NPMI) (Lau et al., 2014) and cosine distance. A higher NPMI value indicates semantically more topic coherence, whereas a larger cosine distance signals greater separation among topics. Given a topic k represented by its top-$N$ topic words w_(k,1,) w_(k,2,)⋯w_(k,N), the NPMI score and cosine distance for k are defined formally as follows:
+
+### 2.4 Examples
+```
+> java -Xmx20g -jar GaussianATCreditModel.jar -sf -D 50 -e resources/glove.2024.wikigiga.50d.zip -n 50 -sc 7 -fb data/math_software/math_software -K 50
+```
+
+### 2.5 Additional Information
 This tool is written by [XU, Shuo](http://54xushuo.net/wiki/) from [Beijing University of Technology](http://www.bjut.edu.cn). If you find this tool useful, please cite Gaussian AT<sup>credit</sup> model as follows: 
 
 Shuo Xu, Lanzhi Li, Jiahao Li, Xin An, Jianhua Liu, and Xuegang Deng, 2026. Evaluation of Mathematical Software Impact based on Diversity Measures. (Under Review)
@@ -76,4 +84,6 @@ For any question, please contact XU, Shuo xushuo@bjut.edu.cn OR pzczxs@gmail.com
 
 [6] Rajarshi Das, Manzil Zaheer, and Chris Dyer, 2015. [Gaussian LDA for Topic Models with Word Embeddings](https://doi.org/10.3115/v1/P15-1077). *Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing, Association for Computational Linguistics*, pp. 795-804. 
 
-[7] Shuo Xu, Lanzhi Li, Jiahao Li, Xin An, Jianhua Liu, and Xuegang Deng, 2026. Evaluation of Mathematical Software Impact based on Diversity Measures. (Under Review)
+[7] Jey Han Lau, David Newman, and Timothy Baldwin, 2014. [Machine Learning Tea Leaves: Automatically Evaluating Topic Coherence and Topic Model Quality](https://doi.org/10.3115/v1/E14-1056). *Proceedings of the 14th Conference of the European Chapter of the Association for Computational Linguistics, Association for Computational Linguistics*, pp. 530-539. 
+
+[8] Shuo Xu, Lanzhi Li, Jiahao Li, Xin An, Jianhua Liu, and Xuegang Deng, 2026. Evaluation of Mathematical Software Impact based on Diversity Measures. (Under Review)
