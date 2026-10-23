@@ -18,7 +18,17 @@ We highly appreciate any suggestion, comment, and bug report.
 Code (c) 2011 Jacob Eisenstein
 [Licensed under the Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
 ## 2. How to Use Gaussian AT<sup>credit</sup> Model
+### 2.1. Data Format
+Please refer to the sample in [`data/math_software`](data/math_software).
 
+### 2.2. How to Use
+
+### 2.3. Additional Information
+This tool is written by [XU, Shuo](http://54xushuo.net/wiki/) from [Beijing University of Technology](http://www.bjut.edu.cn). If you find this tool useful, please cite Gaussian AT<sup>credit</sup> model as follows: 
+
+Shuo Xu, Lanzhi Li, Jiahao Li, Xin An, Jianhua Liu, and Xuegang Deng, 2026. Evaluation of Mathematical Software Impact based on Diversity Measures. (Under Review)
+
+For any question, please contact XU, Shuo xushuo@bjut.edu.cn OR pzczxs@gmail.com.
 ## 3. References
 [1] David M. Blei, Andrew Y. Ng, and Michael I. Jordan, 2003. [Latent Dirichlet Allocation](http://jmlr.csail.mit.edu/papers/v3/blei03a.html). *Journal of Machine Learning Research*, Vol. 3, No. Jan, pp. 993-1022.
 
