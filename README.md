@@ -18,12 +18,46 @@ We highly appreciate any suggestion, comment, and bug report.
 Code (c) 2011 Jacob Eisenstein
 [Licensed under the Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
 ## 2. How to Use Gaussian AT<sup>credit</sup> Model
-### 2.1. Data Format
+### 2.1 Data Format
 Please refer to the sample in [`data/math_software`](data/math_software).
 
-### 2.2. How to Use
+### 2.2 Command Line & Input Parameters
+```
+usage: GaussianATModelWithCredit v1.0: to run Gaussian AT<sup>credit</sup> Model.
+Author: XU, Shuo (pzczxs@gmail.com)
+ -a,--alpha <arg>               alpha (default: 0.5)
+ -af,--adjustFlag               to adjust the credits according to
+                                hyper-authorship strategy
+ -b,--beta <arg>                beta (default: 0.1)
+ -D,--numDimensions <arg>       #of dimensions for word embeddings
+ -e,--embeddingFileName <arg>   embedding file name
+ -fb,--filebase <arg>           file base
+ -h,--help                      Print this usage information
+ -i,--numInitIterations <arg>   #of initialization iterations by
+                                AT<sup>credit</sup> model (default: 0)
+ -k,--kappa <arg>               kappa (default: 0.1)
+ -K,--numTopics <arg>           #of topics (default: 100)
+ -l,--lambda <arg>              lambda (default: 0)
+ -n,--numIterations <arg>       #of estimation iterations (default: 50)
+ -sc,--scheme <arg>             0: arithmetic counting scheme
+                                1: axiomatic counting scheme
+                                2: geometric counting scheme
+                                3: golden number counting scheme
+                                4: harmonic counting scheme
+                                5: network-based counting scheme
+                                6: single author scheme
+                                7: indiscriminate counting scheme
+                                (default)
+ -se,--seed <arg>               seed for rand (default: 56567651)
+ -sf,--stopEarlyFlag            to stop early
+ -ta,--numTopAuthors <arg>      #of top authors (default: 20)
+ -tw,--numTopWords <arg>        #of top words (default: 20)
+ -tw4,--numTopWords4PMI <arg>   #of top words for PMI (default: 15)
+```
 
-### 2.3. Additional Information
+### 2.3 Examples
+
+### 2.4 Additional Information
 This tool is written by [XU, Shuo](http://54xushuo.net/wiki/) from [Beijing University of Technology](http://www.bjut.edu.cn). If you find this tool useful, please cite Gaussian AT<sup>credit</sup> model as follows: 
 
 Shuo Xu, Lanzhi Li, Jiahao Li, Xin An, Jianhua Liu, and Xuegang Deng, 2026. Evaluation of Mathematical Software Impact based on Diversity Measures. (Under Review)
