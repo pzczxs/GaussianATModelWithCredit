@@ -57,7 +57,7 @@ Author: XU, Shuo (pzczxs@gmail.com)
 
 ### 2.3 Resources
 #### 2.3.1 Word Embeddings
-The pre-trained word embedings are needed for the Gaussian AT<sup>credit</sup> model in advance. One can obtain word embeddings from Google word2vec, GloVe, FastText, and so on. For computational efficiency considerations，50-dimensional word embedding are preferred. Please download the pre-trained embedding vectors from [GloVe](https://nlp.stanford.edu/projects/glove/), and then put them in the directory `resources`. 
+The pre-trained word embedings are needed for the Gaussian AT<sup>credit</sup> model in advance. One can obtain word embeddings from [Google word2vec](https://code.google.com/archive/p/word2vec/), [GloVe](https://nlp.stanford.edu/projects/glove/), [FastText](https://fasttext.cc/docs/en/pretrained-vectors.html), or a vector LLM. For computational efficiency considerations，50-dimensional word embedding are preferred. Please download the pre-trained embedding vectors from [GloVe](https://nlp.stanford.edu/projects/glove/), and then put them in the directory `resources`. 
 
 #### 2.3.2 Statistics for single terms and term pairs from Wikipedia articles
 To select an appropriate number of topics $$K$$ for the Gaussian AT<sup>credit</sup> model, model performance is evaluated with normalized pointwise mutual information (NPMI) (Lau et al., 2014) and cosine distance. A higher NPMI value indicates semantically more topic coherence, whereas a larger cosine distance signals greater separation among topics. Given a topic $$k$$ represented by its top-$`N`$ topic words $w_{k, 1}, w_{k, 2}, \cdots, w_{k, N}$, the NPMI score and cosine distance for $$k$$ are defined formally as follows:
